@@ -1,0 +1,21 @@
+{
+  "main": {
+    "ru-MD": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 12740 $",
+          "_cldrVersion": "30.0.3"
+        },
+        "language": "ru",
+        "territory": "MD"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "Метрическая",
+          "UK": "Английская",
+          "US": "Англо-американская"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "main": {
+    "ca-ES-VALENCIA": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 12740 $",
+          "_cldrVersion": "30.0.3"
+        },
+        "language": "ca",
+        "territory": "ES",
+        "variant": "VALENCIA"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "mètric",
+          "UK": "RU",
+          "US": "EUA"
+        }
+      }
+    }
+  }
+}

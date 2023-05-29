@@ -1,0 +1,21 @@
+{
+  "main": {
+    "de-LU": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 12799 $",
+          "_cldrVersion": "30.0.3"
+        },
+        "language": "de",
+        "territory": "LU"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "Internationales (SI)",
+          "UK": "Englisches",
+          "US": "Angloamerikanisches"
+        }
+      }
+    }
+  }
+}

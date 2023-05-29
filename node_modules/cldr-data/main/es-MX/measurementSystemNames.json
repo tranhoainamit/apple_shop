@@ -1,0 +1,21 @@
+{
+  "main": {
+    "es-MX": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 12876 $",
+          "_cldrVersion": "30.0.3"
+        },
+        "language": "es",
+        "territory": "MX"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "métrico",
+          "UK": "anglosajón",
+          "US": "estadounidense"
+        }
+      }
+    }
+  }
+}

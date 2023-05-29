@@ -1,0 +1,20 @@
+{
+  "main": {
+    "fo": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 12876 $",
+          "_cldrVersion": "30.0.3"
+        },
+        "language": "fo"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "metralagið",
+          "UK": "UK",
+          "US": "US"
+        }
+      }
+    }
+  }
+}

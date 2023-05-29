@@ -1,0 +1,96 @@
+  <div class="banner">
+    <img src="https://shopdunk.com/images/uploaded/Linh%20Cherry/banner%20KV%2030.4%20PC.jpeg" alt="" width="100%">
+  </div>
+  <center><h2 style="margin-top: 10px;">Sản phẩm hot</h3></center>
+    <div id="cardhot" class="row row-cols-1 row-cols-md-4 g-0 d-flex"></div>
+    <script>
+      fetch('http://localhost:3000/products/producthot')
+        .then(res => res.json())
+        .then(data => {
+          console.log(data)
+          let cardhot = document.getElementById('cardhot');
+          data.forEach(s => {
+            cardhot.innerHTML += `
+      <div class="card d-flex" style="height: 450px; display: block; margin: 0 10px; width: 300px; margin-top: 30px;">
+        <center>
+          <a href="/productdetail/${s.id}">
+            <img class="card-img-top" src="/images/${s.urlHinh}" style="width: 250px; height: 250px" />
+          </a>
+        </center>
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="/productdetail/${s.id}">
+              ${s.tenSP}
+            </a>
+          </h5>
+          <div class="d-flex flex-g" style="font-weight: bold">
+            <p class="card-text">
+              ${s.gia.toLocaleString('vi')}đ
+            </p>
+            <span style="padding-left: 15px; color: red" class="card-text-old"><del>
+                ${s.giaCu.toLocaleString('vi')}đ
+              </del></span>
+          </div>
+        </div>
+        <div class="btn">
+          <center>
+            <button type="button" class="btn btn-warning" style="width: 100%">
+              Thêm vào giỏ hàng
+            </button>
+          </center>
+        </div>
+
+  </div>
+          `
+          });
+        })
+    </script>
+
+    <hr>
+
+    <center><h2 style="margin-top: 10px;">Sản phẩm xem nhiều</h3></center>
+      <div id="cardview" class="row row-cols-1 row-cols-md-4 g-0 d-flex"></div>
+      <script>
+        fetch('http://localhost:3000/products/productview')
+          .then(res => res.json())
+          .then(data => {
+            console.log(data)
+            let cardview = document.getElementById('cardview');
+            data.forEach(s => {
+              cardview.innerHTML += `
+        <div class="card d-flex" style="height: 450px; display: block; margin: 0 10px; width: 300px; margin-top: 30px;">
+          <center>
+            <a href="/productdetail/${s.id}">
+              <img class="card-img-top" src="/images/${s.urlHinh}" style="width: 250px; height: 250px" />
+            </a>
+          </center>
+          <div class="card-body">
+            <h5 class="card-title">
+              <a href="/productdetail/${s.id}">
+                ${s.tenSP}
+              </a>
+            </h5>
+            <div class="d-flex flex-g" style="font-weight: bold">
+              <p class="card-text">
+                ${s.gia.toLocaleString('vi')}đ
+              </p>
+              <span style="padding-left: 15px; color: red" class="card-text-old"><del>
+                  ${s.giaCu.toLocaleString('vi')}đ
+                </del></span>
+            </div>
+          </div>
+          <div class="btn">
+            <center>
+              <button type="button" class="btn btn-warning" style="width: 100%">
+                Thêm vào giỏ hàng
+              </button>
+            </center>
+          </div>
+  
+    </div>
+            `
+            });
+          })
+      </script>
+
+      <hr>

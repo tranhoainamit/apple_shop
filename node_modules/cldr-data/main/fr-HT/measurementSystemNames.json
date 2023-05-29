@@ -1,0 +1,21 @@
+{
+  "main": {
+    "fr-HT": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 12763 $",
+          "_cldrVersion": "30.0.3"
+        },
+        "language": "fr",
+        "territory": "HT"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "métrique",
+          "UK": "impérial",
+          "US": "américain"
+        }
+      }
+    }
+  }
+}

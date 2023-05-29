@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.row-cols-md-4 {
+    padding-left: 30px;
+  }
+
+  .row-cols-md-4:first-of-type {
+    margin-left: 58px;
+  }
+
+  .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .card-body a {
+    text-decoration: none;
+  }

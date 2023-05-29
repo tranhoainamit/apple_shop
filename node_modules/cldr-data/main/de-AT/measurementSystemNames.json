@@ -1,0 +1,21 @@
+{
+  "main": {
+    "de-AT": {
+      "identity": {
+        "version": {
+          "_number": "$Revision: 12873 $",
+          "_cldrVersion": "30.0.3"
+        },
+        "language": "de",
+        "territory": "AT"
+      },
+      "localeDisplayNames": {
+        "measurementSystemNames": {
+          "metric": "Internationales Maßsystem (SI)",
+          "UK": "Englisches Maßsystem",
+          "US": "Angloamerikanisches Maßsystem"
+        }
+      }
+    }
+  }
+}
